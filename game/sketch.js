@@ -1,3 +1,4 @@
+
 let catX = 100;
 let catY = 100;
 let catSize = 50;
@@ -51,7 +52,15 @@ function draw() {
     }
 
     fill('brown');
+    triangle(catX - 20, catY - 15, catX - 25, catY - 35, catX - 5, catY - 25);
+    triangle(catX + 20, catY - 15, catX + 25, catY - 35, catX + 5, catY - 25);
+
+    fill('brown');
     circle(catX, catY, catSize);
+
+    fill('white');
+    circle(catX - 10, catY - 5, 9);
+    circle(catX + 10, catY - 5, 9);
 
     fill('blue');
     circle(playerMouseX, playerMouseY, mouseSize);
