@@ -58,7 +58,7 @@ function draw() {
     fill('brown');
     circle(catX, catY, catSize);
 
-    fill('white');
+    fill('green');
     circle(catX - 10, catY - 5, 9);
     circle(catX + 10, catY - 5, 9);
 
